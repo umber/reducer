@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Umber\Reducer\Registry;
 
-use Umber\Common\Exception\Reducer\CannotReduceTypeException;
+use Umber\Reducer\Exception\CannotReduceTypeException;
 
 use Umber\Reducer\Handler\ReducerHandlerInterface;
 
