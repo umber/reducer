@@ -5,7 +5,6 @@ declare(strict_types=1);
 namespace Umber\Reducer\Registry;
 
 use Umber\Reducer\Exception\CannotReduceTypeException;
-
 use Umber\Reducer\Handler\ReducerHandlerInterface;
 
 final class ReducerHandlerRegistry
