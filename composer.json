@@ -1,0 +1,41 @@
+{
+  "name": "umber/reducer",
+  "description": "A series of classes handling ranges of reducers.",
+  "type": "library",
+  "license": "MIT",
+
+  "require": {
+    "php": ">=7.1"
+  },
+
+  "require-dev": {
+    "phpunit/phpunit": "^7.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Umber\\Reducer\\": "src/Umber/Reducer"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Umber\\Reducer\\Tests\\": "tests/Umber/Reducer/Tests"
+    }
+  },
+
+  "extra": {
+    "branch-alias": {
+      "dev-develop": "0.1-dev"
+    }
+  },
+
+  "archive": {
+    "exclude": [
+      "!vendor",
+      "*phpunit.xml",
+      ".travis.yml",
+      "tests"
+    ]
+  }
+}
