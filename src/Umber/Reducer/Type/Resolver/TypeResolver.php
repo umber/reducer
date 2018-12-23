@@ -8,9 +8,9 @@ use Umber\Reducer\Type\Resolved\ObjectResolvedType;
 use Umber\Reducer\Type\Resolved\ResolvedType;
 use Umber\Reducer\Type\ResolvedTypeInterface;
 
+use Doctrine\Common\Collections\Collection;
 use Doctrine\ORM\Proxy\Proxy;
 
-use Faker\Test\Provider\Collection;
 use RuntimeException;
 
 final class TypeResolver implements TypeResolverInterface
