@@ -105,7 +105,7 @@ final class ReducerHandlerContext implements ReducerContextInterface
      */
     public function shallow($input)
     {
-        return $this->delegate(function (DelegateConfiguration $configuration) use ($input) {
+        return $this->delegate(static function (DelegateConfiguration $configuration) use ($input) {
             $configuration->depth(1);
 
             return $input;
