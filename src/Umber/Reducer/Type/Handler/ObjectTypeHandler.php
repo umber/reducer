@@ -33,9 +33,10 @@ final class ObjectTypeHandler implements TypeHandlerInterface
     }
 
     /**
-     * {@inheritdoc}
-     *
+     * @param mixed $input
      * @param ObjectResolvedType $type
+     *
+     * @return mixed
      */
     public function handle($input, ResolvedTypeInterface $type, ReducerContextInterface $context)
     {
