@@ -9,7 +9,7 @@ use Umber\Reducer\ReducerInterface;
 
 final class DelegateConfiguration
 {
-    /** @var null|int */
+    /** @var int|null */
     private $depth;
 
     /** @var string[] */
