@@ -115,11 +115,11 @@ final class ReducerHandlerContext implements ReducerContextInterface
     /**
      * Reduce the given object.
      *
+     * @deprecated
+     *
      * @param mixed $object
      *
      * @return mixed
-     *
-     * @deprecated
      */
     public function reduce($object)
     {
